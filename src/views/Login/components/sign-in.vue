@@ -67,8 +67,7 @@ const sign_in = async () => {
 
 <style scoped lang="less">
   .login {
-    width: 300px;
-    padding: 20px 0;
+    padding: 20px 50px;
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.18);

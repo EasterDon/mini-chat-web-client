@@ -1,14 +1,8 @@
 <script setup lang="ts">
 import { Avatar } from 'ant-design-vue';
-// const avatar_name = 'avatar.png';
-// const last_message_value = {
-//   sender: 'Easter',
-//   content: 'Hello World!',
-// };
-// const avatar_src = new URL('/avatar/' + avatar_name, import.meta.url).href;
-// console.log(avatar_src);
 
 const props = defineProps(['value']);
+
 </script>
 
 <template>

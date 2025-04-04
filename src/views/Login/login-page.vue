@@ -34,7 +34,7 @@ const change_choice = () => {
   width: 100%;
   height: 100%;
   background: center / cover no-repeat
-    url('http://127.0.0.1:3001/images/background/1.jpg');
+    url('http://127.0.0.1:3000/images/background/1.jpg');
   display: flex;
   justify-content: center;
   align-items: center;

@@ -36,7 +36,7 @@ const init_rooms = async () => {
 const init_friends_profile = async () => {
   try {
     const friends_profile = await get_friends_profile(user_store.profile.id);
-    friend_store.init_friend_list(friends_profile);
+    friend_store.init_friend_list(friends_profile);    
   } catch (error) {
     console.log(error);
   }

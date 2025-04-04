@@ -56,9 +56,9 @@ export const get_friends_profile = async (
     socket.emit(
       'get-friends-profile',
       { id },
-      (akt: { status: boolean; friend_profile: UserProfile[] }) => {
+      (akt: { status: boolean; friends_profile: UserProfile[] }) => {
         if (akt.status) {
-          resolve(akt.friend_profile);
+          resolve(akt.friends_profile);
         } else {
           reject('respoense error');
         }

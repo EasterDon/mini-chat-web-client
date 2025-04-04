@@ -5,6 +5,10 @@ import piniaState from 'pinia-plugin-persistedstate';
 import router from '@/router';
 import App from './App.vue';
 
+document.getElementById('app')?.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+
 const pinia = createPinia();
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
